@@ -34,4 +34,11 @@ __
 11. rename views/layouts/application.html.erb
     application.html.haml
 
-12. 
+12. added update, edit and destroy functionality in pictures_controller.rb
+
+13. $ rails generate devise:install
+    configure 4 steps
+
+14. $ rails g devise User
+
+15. $ rake db:migrate
