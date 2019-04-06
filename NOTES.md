@@ -48,3 +48,10 @@ __
 17. $ rails generate migration add_user_id_to_pictures user_id:integer:index
 
 18. $ rake db:migrate
+
+19. rename app/assests/stylesheets/application.css
+    application.css.scss
+
+20. integrate bootstrap-sass
+
+21. add styling to app/assets/stylesheets/application.css.scss
