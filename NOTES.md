@@ -19,3 +19,7 @@ $ git push origin master
 6. $ rake db:migrate
 
 7. $ rails generate controller Pictures
+
+8. add to /routes.rb
+    resources :pictures
+    root 'pictures#index'
