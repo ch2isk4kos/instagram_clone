@@ -27,6 +27,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# custom gems:
+gem 'devise', '~> 4.6'          # authentication
+gem 'haml', '~> 5.0'            # styling (in place of .html.erb)
+gem 'simple_form', '~> 4.1'     # form templates
+gem 'bootstrap-sass', '~> 3.4'  # 
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
