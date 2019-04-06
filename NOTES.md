@@ -16,4 +16,6 @@ $ git push origin master
 
 5. $ rails generate model Picture title:string description:text
 
-6. 
+6. $ rake db:migrate
+
+7. $ rails generate controller Pictures
