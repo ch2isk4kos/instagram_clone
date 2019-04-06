@@ -42,3 +42,9 @@ __
 14. $ rails g devise User
 
 15. $ rake db:migrate
+
+16. Make User --< Picture Association
+
+17. $ rails generate migration add_user_id_to_pictures user_id:integer:index
+
+18. $ rake db:migrate

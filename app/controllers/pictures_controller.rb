@@ -11,11 +11,19 @@ class PicturesController < ApplicationController
 
     # View Files
     def new
-        @picture = Picture.new
+        # before devise:
+        # @picture = Picture.new
+
+        # after devise:
+        @picture = current_user.pictures.build
     end
 
     def create
-        @picture = Picture.new(picture_params)
+        # before devise
+        # @picture = Picture.new(picture_params)
+
+        # after devise
+        @picture = current_user.pictures.build(picture_params)
 
         if @picture.save
             redirect_to @picture, notice: "Successful Submission"
