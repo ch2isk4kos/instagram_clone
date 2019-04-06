@@ -23,3 +23,15 @@ $ git push origin master
 8. add to /routes.rb
     resources :pictures
     root 'pictures#index'
+
+9. add to views/pictures
+    new.html.haml
+    _form.html.haml
+__
+
+10. $ rails generate simple_form:install --bootstrap
+
+11. rename views/layouts/application.html.erb
+    application.html.haml
+
+12. 
