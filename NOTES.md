@@ -55,3 +55,19 @@ __
 20. integrate bootstrap-sass
 
 21. add styling to app/assets/stylesheets/application.css.scss
+
+22. add paperclip gem to Gemfile
+
+23. $ bundle install
+
+24. configure paperclip
+
+23. $ brew install imagemagick
+
+24. $ which convert
+
+25. add image validation to picture.rb
+
+26. $ rails generate paperclip picture image
+
+27. $ rake db:migrate

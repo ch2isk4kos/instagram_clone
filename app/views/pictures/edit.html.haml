@@ -4,4 +4,7 @@
             .panel-heading
                 %h1 Update Picture
             .panel-body
+                .current_image
+                    %strong.center Current Picture
+                    = image_tag @picture.image.url(:medium)
                 = render 'form'
