@@ -33,6 +33,7 @@ gem 'haml', '~> 5.0'            # styling (in place of .html.erb)
 gem 'simple_form', '~> 4.1'     # form templates
 gem 'bootstrap-sass', '~> 3.4'  #
 gem 'paperclip', '~> 6.1'       # uploading pictures
+gem 'masonry-rails', '~> 0.2.4' # styling pages
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

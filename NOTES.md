@@ -71,3 +71,5 @@ __
 26. $ rails generate paperclip picture image
 
 27. $ rake db:migrate
+
+28. add gem 'masonry-rails' to Gemfile
