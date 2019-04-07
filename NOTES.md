@@ -81,3 +81,6 @@ __
 31. $ rails generate acts_as_votable:migration
 
 32. $ rake db:migrate
+
+33. add to views/devise/registrations/edit.html.erb
+           views/devise/sessions/new.html.erb
