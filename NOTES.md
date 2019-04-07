@@ -73,3 +73,11 @@ __
 27. $ rake db:migrate
 
 28. add gem 'masonry-rails' to Gemfile
+
+29. $ bundle install
+
+30. add gem 'acts_as_votable' to Gemfile
+
+31. $ rails generate acts_as_votable:migration
+
+32. $ rake db:migrate
